@@ -1,0 +1,11 @@
+img{
+	margin:0 20px;
+	
+}	
+#contenedor{
+	width:75%;
+	margin:auto;
+}
+input:hover{
+cursor: pointer;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Buscador con indexOf</h1>
+        <input type="text" id="formulario" class="form-control my-2">
+        <button class="btn btn-info mb-2" id="boton">Buscar</button>
+        <ul id="resultado">
+            
+        </ul>
+    </div>
+
+
+    <script>
+
+        // Const
+
+        const productos = [
+            {nombre: 'Manzana', valor: 350},
+            {nombre: 'Pera', valor: 250},
+            {nombre: 'Cambur', valor: 150},
+            {nombre: 'Mandarina', valor: 100},
+            {nombre: 'limón', valor: 65},
+            {nombre: 'Naranja', valor: 40},
+            {nombre: 'Fresa', valor: 400}
+        ]
+
+        const formulario = document.querySelector('#formulario');
+        const boton = document.querySelector('#boton');
+        const resultado = document.querySelector('#resultado');
+
+        const filtrar = () =>{
+
+            resultado.innerHTML = '';
+
+            // console.log(formulario.value);
+            const texto = formulario.value.toLowerCase();
+            
+            for (const item of productos) {
+                let nombre = item.nombre.toLocaleLowerCase();
+                if (nombre.indexOf(texto) !== -1) {
+                    resultado.innerHTML += `
+                    <li>${item.nombre} / Valor: ${item.valor}</li>
+                    `
+                }
+            }
+            if (resultado.innerHTML === '') {
+                resultado.innerHTML += `
+                    <li>Producto no encontrado...</li>
+                    `
+            }
+        }
+
+        //addEventListener
+
+        boton.addEventListener('click', filtrar);
+
+        formulario.addEventListener('keyup', filtrar);
+
+        filtrar();
+    </script>
+</body>
+</html>

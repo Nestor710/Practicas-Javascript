@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario desmadre</title>
+<link rel="stylesheet" href="ejercicio_validacion.css">
+<script src="../../fotos con fancybox/Jquery/jquery-1.6.3.min.js"></script>
+<script src="../../jQuery/jQuery_validate_plugin/jquery_validate_plugin.js"></script>
+<script src="ejercicio_validacion.js"></script>
+</head>
+<body>
+<div class="cont_principal">
+	<div class="cabecera">
+		<p class="logo">Píldoras informáticas</p>
+	</div>
+	<div class="contenido">
+	<div class="principal">
+	<h1>Rellenar</h1>
+		<form name="form_registro" id="form_registro">
+			<div>
+				<label for="nombre" class="label">NOMBRE </label>
+				<input name="nombre" type="text" id="nombre" required>
+			</div>
+			<div>
+				<label for="email" class="label">E-mail </label>
+				<input name="e_mail" type="email" id="e_mail" required>
+			</div>
+			<div>
+				<label for="password" class="label">CONTRASEÑA</label>
+				<input name="password" type="password" id="password" required>
+			</div>
+			<div>
+				<label for="confirma" class="label">ConfirmA CONTRA</label>
+				<input name="confirma" type="password" id="confirma" required>
+			</div>
+			<div><span class="label">aficiones</span>
+				<input name="hobby" type="checkbox" id="comer" value="comer">
+				Comer
+				<input name="hobby" type="checkbox" id="Beber" value="Beber">
+				<label for="Beber">Beber</label>
+				<input name="hobby" type="checkbox" id="Dormir" value="Dormir">
+				<label for="Dormir">Dormir</label></div>
+			<div>
+				<label for="fecha" class="label">FECHA NACIMIENTO</label>
+				<input name="fecha" type="date" id="fecha" required>
+			</div>
+			<div>
+				<label for="planeta" class="label">PlanetA </label>
+				<select name="planeta" id="planeta" required>
+					<option value="">--Por favor, selecciona--</option>
+					<option value="tierra">Tierra</option>
+					<option value="marte">Marte</option>
+					<option value="ganimedes">Ganímedes</option>
+					<option value="No me suena nada">No me suena nada</option>
+				</select>
+			</div>
+			<div>
+				<label for="comentarios" class="label">COMENTARIOS</label>
+				<textarea name="comentarios" cols="15" rows="5" id="comentarios"></textarea>
+			</div>
+			<div class="labelBlock">¿DESEAS RECIBIR CORREO BASURA DE NUESTRA PARTE? </div>
+			<div class="indent">
+				<input  type="radio" name="spam" id="yes" value="yes" >
+				<label for="si">Sí</label>
+				<input type="radio" name="spam" id="Por_supuesto" value="Por_supuesto">
+				<label for="definitely">Por supuesto</label>
+				<input type="radio" name="spam" id="eleccion" value="eleccion">
+				<label for="eleccion">¿Tengo elección?</label>
+			</div>
+			<div>
+				<input type="submit" name="submit" id="submit" value="Enviar">
+			</div>
+			<div>
+				<input type="reset" name="reset" id="reset" value="Limpiar Formulario">
+			</div>
+		</form>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

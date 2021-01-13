@@ -1,0 +1,17 @@
+h1{
+	text-align:center;
+}
+body{
+	background-color:#334873;
+	color:#FFF;
+}
+
+#principal{
+	width:60%;
+	margin:auto;
+}
+
+a{
+	color:#FFF;
+	font:bold 20px Verdana, Geneva, sans-serif;
+} 

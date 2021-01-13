@@ -1,0 +1,24 @@
+#imagenes{
+	width:1475px;
+	margin:auto;
+	
+}
+img{
+    cursor: pointer;
+    padding:20px 30px;
+    
+}
+
+#mensaje_img1, #mensaje_img2, #mensaje_img3, #mensaje_img4{
+	position: absolute;
+	left: 623px;
+	top: 392px;
+	width: 581px;
+	height: 215px;
+	background-color: #FF9;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 25px;
+    border: dotted 2px #00F;
+    text-align: center;
+}

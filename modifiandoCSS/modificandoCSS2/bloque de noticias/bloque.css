@@ -1,0 +1,33 @@
+.modo_normal{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    width: 20%;
+    margin: 0 100px;
+    float: left;
+    border: blue solid 2px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+}
+
+div:hover{
+    background-color: lightskyblue;
+}
+input{
+    background-color: black;
+    color: white;
+}
+input:hover{
+    cursor: pointer;
+}
+

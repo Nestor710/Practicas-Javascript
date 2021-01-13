@@ -1,0 +1,28 @@
+body{
+	background-color:#009;
+	color:#FFF;
+}
+
+h3 {
+    background: url() no-repeat 0 11px;
+	padding: 10px 0 0 25px;
+	cursor: pointer;
+}
+h3.cerrar {
+	background-image: url();
+}
+.respuesta {
+	margin-left: 25px;	
+}
+.titulo{
+	text-align:center;
+}
+.principal{
+	margin-left:200px;
+	margin-top:150px;
+	
+}
+
+img{
+    width: 100px;
+}

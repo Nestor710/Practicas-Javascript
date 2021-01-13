@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios 3</title>
+<link rel="stylesheet" href="formulario_3.css">
+<script src="../../jQuery/jquery.js"></script>
+<script src="formulario_3.js"></script>
+</head>
+
+<body>
+<h1>Envío de datos</h1>
+<div id="contenedor">
+<form id="form_datos">
+  <table width="20%" border="0" align="center" id="principal">
+    <tr>
+      <td>Nombre:</td>
+      <td><label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" value="Obligatorio nombre"></td>
+    </tr>
+    <tr>
+      <td>Dirección:</td>
+      <td><input type="text" name="Dirección" id="direccion"></td>
+    </tr>
+    <tr>
+      <td>Ciudad:</td>
+      <td><input type="text" name="edad" id="edad"></td>
+    </tr>
+    <tr>
+        <td>Código Postal</td>
+        <td><input type="text" name="c_postal" id="c_postal"></td>
+    </tr>
+    <tr>
+      <td>Método de Pago:</td>
+      <td><p>
+        <label>
+          <input type="radio" name="metodo de pago" id="paypal">
+          PayPal</label>
+        <br>
+        <label>
+          <input type="radio" name="metodo de pago" id="mastercard">
+          MasterCard</label>
+        <br>
+        <label>
+            <input type="radio" name="metodo de pago" id="visa">
+          Visa</label>
+      </p></td>
+    </tr>
+
+    <tr>
+        <td>Datos Pago:</td>
+        <td><table width="200">
+        <tr>
+            <td><label for="tarjeta" id="n_tarjeta"></label>N°Tarjeta</td>
+            <td>
+                <input type="text" name="tarjeta" id="tarjeta"></td>
+        </tr>
+        <tr>
+            <td><label for="fecha_tarjeta" id="f_tarjeta"></label>Fecha Expiración</td>
+            <td>
+                <input type="text" name="fecha expiracion" id="fechaexpiracion"></td>
+        </tr>
+        <tr>
+            <td><label for="email" id="e_email"></label>Email</td>  
+            <td>
+                <input type="text" name="email" id="email"></td>
+        </tr>
+        </table></td>
+        </td>
+    </tr>
+    
+    
+        <tr>
+            <td>País:</td>
+            <td><label for="pais"></label>
+              <select name="pais" id="pais">
+                <option>España</option>
+                <option>México</option>
+                <option>Colombia</option>
+                <option>Venezuela</option>
+                <option>Chile</option>
+                <option>Argentina</option>
+              </select></td>
+          </tr>
+       
+          <tr>
+      
+            <td colspan="2" align="center"><input type="submit" value="Enviar" id="enviar"></td>
+           
+            </tr>
+        </table>
+    </tr>
+  </form>
+</div>
+
+</body>
+</html>

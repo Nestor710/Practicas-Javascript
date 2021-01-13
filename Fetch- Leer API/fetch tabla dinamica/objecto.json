@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "nombre": "Yelitza",
+        "email": "yelitza.0@gmail.com",
+        "estado": true
+    },
+    {
+        "id":2,
+        "nombre": "Liskerlys",
+        "email": "liskerlys@tab.cl",
+        "estado": false
+    },
+    {
+        "id": 3,
+        "nombre": "Daniel",
+        "email": "daniel@iq.tl",
+        "estado": true
+    },
+    {
+        "id":4,
+        "nombre": "Nestor",
+        "email": "nestor@lr.pub",
+        "estado": true
+    },
+    {
+        "id":5,
+        "nombre": "Nelson",
+        "email": "nelson@esp.er",
+        "estado": false
+    }
+]

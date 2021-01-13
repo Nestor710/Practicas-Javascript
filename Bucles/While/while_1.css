@@ -1,0 +1,9 @@
+#contenedor {
+    width: 25%;
+    background-color: brown;
+    margin: auto;
+    padding: 15px;
+}
+#nombre, #apellido, #edad, #poblacion {
+    color: white;
+}

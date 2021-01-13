@@ -1,0 +1,40 @@
+h1{
+	text-align:center;
+}
+
+p{
+	
+	font-size:22px;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:justify;
+}
+
+#links {
+	
+	width: 20%;
+	margin-left:45px;
+	border:dashed #0000FF 2px;
+	float:left;
+	padding-bottom:200px;
+	padding-left:20px;
+	
+
+}
+
+#links h2{
+	text-align:center;
+}
+
+#ultimos{
+	
+	width:75%;
+	float:left;
+		
+}
+li{
+	font-weight:bold;
+	font-size:18px;
+}
+#links:hover{
+background-color: lightgreen;
+}

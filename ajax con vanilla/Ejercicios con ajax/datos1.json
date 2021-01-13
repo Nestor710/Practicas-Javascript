@@ -1,0 +1,17 @@
+[
+    {
+        "futbolistas": "Lionel Messi",
+        "tecnicos": "Pep Guardiola",
+        "estadios": "camp Nou"
+    },
+    {
+        "futbolistas": "Cristiano Ronaldo",
+        "tecnicos": "Mourinho",
+        "estadios": "Santiago Bernabeu"
+    },
+    {
+        "futbolistas": "Neymar Junior",
+        "tecnicos": "Anchelotti",
+        "estadios": "Wanda Metropolitano"
+    }
+]

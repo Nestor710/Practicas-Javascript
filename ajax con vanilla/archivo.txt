@@ -1,0 +1,1 @@
+Hola, soy nestor y estoy practicando programacion con javascript, AJAX con vanilla - XMLHtpRequest
